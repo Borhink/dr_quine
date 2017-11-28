@@ -61,4 +61,3 @@ int main()
 	if (i > 0)
 		execv((c[0] + to_string(i)).c_str(), NULL);
 }
-// g++ -Wall -Wextra -Werror ../src/Sully.cpp -o Sully; ./Sully
